@@ -1,0 +1,5 @@
+@include('Dashboard.Layouts.RTL.head')
+@include('Dashboard.Layouts.RTL.header')
+@include('Dashboard.Layouts.RTL.aside')
+@yield('content')
+@include('Dashboard.Layouts.RTL.footer')
